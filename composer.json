@@ -1,7 +1,10 @@
 {
   "name": "snowleopard/administration",
   "description": "Snow Leopard Administration",
-  "keywords": ["laravel", "admin"],
+  "keywords": [
+    "laravel",
+    "admin"
+  ],
   "license": "MIT",
   "authors": [
     {
@@ -10,7 +13,7 @@
     }
   ],
   "require": {
-    "php": ">=5.5.9",
+    "php": ">=5.6",
     "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
     "laravelcollective/html": "^5.3.0"
   },
@@ -25,5 +28,9 @@
       "src/helpers.php"
     ]
   },
-  "minimum-stability": "stable"
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
 }
